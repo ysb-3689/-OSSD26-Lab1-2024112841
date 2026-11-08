@@ -1,0 +1,20 @@
+message="   hello"
+a="world"
+b=f"{message}{a}"
+print(b.strip())
+print(b.upper())
+print(10**10)
+print(1_000_000)
+a=['s','d']
+print(a[-2],a[-1])
+a.append("k")
+print(a)
+a.insert(1,'n')
+print(a)
+gou=a.pop(-1)
+print(a)
+print(gou)
+print(sorted(a))
+print(a)
+k=len(a)
+print(k)
