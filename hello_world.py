@@ -1,4 +1,4 @@
-message="     hello"
+message="   hello"
 a="world"
 b=f"{message}{a}"
 print(b.strip())
